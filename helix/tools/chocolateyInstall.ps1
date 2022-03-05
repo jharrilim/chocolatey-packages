@@ -2,12 +2,14 @@
 
 $packageArgs = @{
   packageName            = 'helix'
-  fileType               = 'zip'
-  url64bit               = 'https://github.com/prey/prey-node-client/releases/download/v1.6.6/prey-windows-1.6.6-x64.msi'
-  checksum64             = '49cbdd7dc73c3a675d1f0c6615db4a7e2809475120109ffda4f27465b4871843'
+  fileType               = 'exe'
+  url                    = 'https://github.com/helix-editor/helix/releases/download/v0.6.0/helix-v0.6.0-x86_64-windows.zip'
+  url64bit               = 'https://github.com/helix-editor/helix/releases/download/v0.6.0/helix-v0.6.0-x86_64-windows.zip'
+  checksum64             = '23F4FE46F30E489938AD2FABFB768A024528EFF437121356398F6839DDACB2B9'
   checksumType64         = 'sha256'
   silentArgs             = '/qn'
   validExitCodes         = @(0)
   softwareName           = 'helix*'
 }
+
 Install-ChocolateyPackage @packageArgs

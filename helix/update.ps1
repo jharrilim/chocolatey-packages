@@ -14,8 +14,11 @@ function global:au_SearchReplace {
 function global:au_BeforeUpdate {
     Get-RemoteFiles -Purge -NoSuffix
     Set-Alias 7z $Env:chocolateyInstall\tools\7z.exe
-    7z e tools\*.zip -otools *.exe -r -y
+    7z x tools\*.zip -otools -y
+    $filename = (Get-ChildItem -Path .\tools\ -Directory).Name
+    Move-Item ".\tools\$filename\*" .\tools
     Remove-Item tools\*.zip -ea 0
+    Remove-Item "tools\$filename"
 }
 
 function global:au_GetLatest {
