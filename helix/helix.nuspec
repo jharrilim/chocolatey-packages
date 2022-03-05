@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>helix-editor</id>
+    <version>0.5.0</version>
+    <title>Helix</title>
+    <owners>josephharrisonlim</owners>
+    <authors>josephharrisonlim</authors>
+    <licenseUrl>https://github.com/helix-editor/helix/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://helix-editor.com/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/3954a1a1afd46d88381ec1e87c3e4cd3dad16066/icons/prey.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      A kakoune / neovim inspired editor, written in Rust.
+      
+      For more information, see the [website](https://helix-editor.com) or
+      [documentation](https://docs.helix-editor.com/).
+      
+      All shortcuts/keymaps can be found [in the documentation on the website](https://docs.helix-editor.com/keymap.html).
+      
+      [Troubleshooting](https://github.com/helix-editor/helix/wiki/Troubleshooting)
+    </description>
+    <summary>A kakoune / neovim inspired editor, written in Rust.</summary>
+    <releaseNotes>https://github.com/helix-editor/helix/releases</releaseNotes>
+    <copyright />
+    <tags>helix editor helix-editor kakoune neovim</tags>
+    <packageSourceUrl>https://github.com/jharrilim/chocolatey-packages/tree/master/helix</packageSourceUrl>
+    <projectSourceUrl>https://github.com/helix-editor/helix</projectSourceUrl>
+    <docsUrl>http://help.preyproject.com/</docsUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
