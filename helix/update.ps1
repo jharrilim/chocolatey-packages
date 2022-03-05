@@ -30,7 +30,7 @@ function global:au_GetLatest {
     @{
         URL64        = 'https://github.com' + $url64
         Version      = $version
-        ReleaseNotes = "https://github.com/flameshot-org/flameshot/releases/tag/v${version}"
+        ReleaseNotes = "https://github.com/helix-editor/helix/releases/tag/v${version}"
     }
 }
 

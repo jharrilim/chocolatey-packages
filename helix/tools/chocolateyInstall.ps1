@@ -9,7 +9,7 @@ $packageArgs = @{
   checksumType64         = 'sha256'
   silentArgs             = '/qn'
   validExitCodes         = @(0)
-  softwareName           = 'helix*'
+  softwareName           = 'hx*'
 }
 
 Install-ChocolateyPackage @packageArgs
