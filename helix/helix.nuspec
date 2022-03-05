@@ -27,7 +27,7 @@
     <tags>helix editor helix-editor kakoune neovim</tags>
     <packageSourceUrl>https://github.com/jharrilim/chocolatey-packages/tree/master/helix</packageSourceUrl>
     <projectSourceUrl>https://github.com/helix-editor/helix</projectSourceUrl>
-    <docsUrl>http://help.preyproject.com/</docsUrl>
+    <docsUrl>https://docs.helix-editor.com/</docsUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
