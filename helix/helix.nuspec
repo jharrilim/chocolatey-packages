@@ -9,7 +9,6 @@
     <authors>josephharrisonlim</authors>
     <licenseUrl>https://github.com/helix-editor/helix/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://helix-editor.com/</projectUrl>
-    <iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/3954a1a1afd46d88381ec1e87c3e4cd3dad16066/icons/prey.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
       A kakoune / neovim inspired editor, written in Rust.
