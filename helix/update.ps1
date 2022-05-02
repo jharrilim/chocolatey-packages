@@ -5,14 +5,15 @@ $releases = 'https://github.com/helix-editor/helix/releases'
 function global:au_SearchReplace {
     @{
         ".\tools\chocolateyInstall.ps1" = @{
-            "(?i)(^\s*url64bit\s*=\s*)('.*')"   = "`$1'$($Latest.URL64)'"
+            "(?i)(^\`$url\s*=\s*)('.*')"   = "`$1'$($Latest.URL64)'"
             "(?i)(^\s*checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
+            "(?i)(^\s*checksumType64\s*=\s*)('.*')"   = "`$1'$($Latest.ChecksumType64)'"
         }
     }
 }
 
 function global:au_BeforeUpdate {
-    Get-RemoteFiles -Purge -NoSuffix
+    $Latest.Checksum64 = Get-RemoteChecksum $Latest.Url64 -Algorithm $Latest.ChecksumType64
 }
 
 function global:au_GetLatest {
@@ -28,4 +29,4 @@ function global:au_GetLatest {
     }
 }
 
-update
+update -ChecksumFor 64
