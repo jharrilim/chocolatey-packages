@@ -6,9 +6,7 @@ $directoryName = (Split-Path $url -Leaf) -replace ".zip"
 
 $packageArgs = @{
   packageName    = $packageName
-  url            = $url
   url64bit       = $url
-  checksum       = ''
   checksum64     = '23F4FE46F30E489938AD2FABFB768A024528EFF437121356398F6839DDACB2B9'
   checksumType64 = 'sha256'
   unzipLocation  = Split-Path $MyInvocation.MyCommand.Definition

@@ -6,7 +6,7 @@
     <version>0.6.0</version>
     <title>Helix</title>
     <owners>josephharrisonlim</owners>
-    <authors>josephharrisonlim</authors>
+    <authors>archseer</authors>
     <licenseUrl>https://github.com/helix-editor/helix/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://helix-editor.com/</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
