@@ -19,7 +19,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: jharrilim/chocolatey-packages
   github_api_key:
-    secure: Pt/rvmnIiTr3uU/Mmr1T4pprL31Jmp1oxWoj7g/WNXJ9EYGVSp54SjLlaOWmlkbl #https://ci.appveyor.com/tools/encrypt
+    secure: 56qwjCz4S3cs4Rl57dC+KPNGwI6ABLYqOojoK58rwukogZHog4UAVhOL2IPInEip #https://ci.appveyor.com/tools/encrypt
 
 
   # Mail credentials - for error notifications
