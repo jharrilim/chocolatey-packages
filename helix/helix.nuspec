@@ -27,8 +27,10 @@
     <packageSourceUrl>https://github.com/jharrilim/chocolatey-packages/tree/master/helix</packageSourceUrl>
     <projectSourceUrl>https://github.com/helix-editor/helix</projectSourceUrl>
     <docsUrl>https://docs.helix-editor.com/</docsUrl>
+    <icon>images\icon.png</icon>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
+    <file src="icon.png" target="images" />
   </files>
 </package>
