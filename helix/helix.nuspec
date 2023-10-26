@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>helix</id>
-    <version>23.05</version>
+    <version>23.10</version>
     <title>Helix</title>
     <owners>josephharrisonlim</owners>
     <authors>https://github.com/helix-editor/helix/graphs/contributors</authors>
@@ -27,6 +27,7 @@
     <packageSourceUrl>https://github.com/jharrilim/chocolatey-packages/tree/master/helix</packageSourceUrl>
     <projectSourceUrl>https://github.com/helix-editor/helix</projectSourceUrl>
     <docsUrl>https://docs.helix-editor.com/</docsUrl>
+    <iconUrl>https://cdn.statically.io/gh/jharrilim/chocolatey-packages/master/helix/icon.png</iconUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
