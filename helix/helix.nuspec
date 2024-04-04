@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>helix</id>
-    <version>23.10</version>
+    <version>24.03</version>
     <title>Helix</title>
     <owners>josephharrisonlim</owners>
     <authors>https://github.com/helix-editor/helix/graphs/contributors</authors>
