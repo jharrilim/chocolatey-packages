@@ -1,13 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'helix'
-$url = 'https://github.com/helix-editor/helix/releases/download/23.10/helix-23.10-x86_64-windows.zip'
+$url = 'https://github.com/helix-editor/helix/releases/download/24.03/helix-24.03-x86_64-windows.zip'
 $directoryName = (Split-Path $url -Leaf) -replace ".zip"
 
 $packageArgs = @{
   packageName    = $packageName
   url64bit       = $url
-  checksum64     = '16c5201ff48bbd3ad0bc8fa4d75f2f30307f3e1d002a40bbea0fcfe1f55d0d28'
+  checksum64     = '0ce486668e8d32c3b16b5aea332168b9eb24d6fd931355745bc0c19099d7e6ab'
   checksumType64 = 'sha256'
   unzipLocation  = Split-Path $MyInvocation.MyCommand.Definition
 }
