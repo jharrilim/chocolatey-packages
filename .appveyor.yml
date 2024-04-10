@@ -38,6 +38,9 @@ environment:
   # Force test: gist id for test results
   gist_id_test:
 
+  # Appveyor defaults to 1.4.0; chocolatey.org expects this version to be whatever the latest version is
+  choco_version: '2.2.2'
+
   # Chocolatey API key - to push updated packages
   api_key:
     secure: 7GjeJ31J/4P9rAFKQ1wX3AbyHAKCvxGuISmboJL2Weza9sK6q132KKc9Stjp+ikd # https://ci.appveyor.com/tools/encrypt
